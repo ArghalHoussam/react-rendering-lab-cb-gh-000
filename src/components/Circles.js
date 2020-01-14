@@ -36,10 +36,10 @@ class Circles extends React.Component {
     <Circle color="red"/>
   ]
 
-  
+
   render() {
     const renderCircles = this.state.circles.map((circle, index) =>
-      <Circle color={circle.color} key={index} /> 
+      <Circle color={circle.color} key={index} />
     );
 
     return (
